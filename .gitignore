@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# dotenv and secret files
+.env
+credentials.json
+token.json
+
+# VS Code & MacOS
+.vscode/
+.DS_Store
