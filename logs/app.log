@@ -1,0 +1,57 @@
+2026-06-10 21:00:46,610 - INFO - Application started.
+2026-06-10 21:00:46,766 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-06-10 21:00:46,774 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-06-10 21:00:47,768 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-06-10 21:00:47,770 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-06-10 21:01:30,821 - INFO - Uploading PDF: /private/var/folders/fx/xb33xz892511mv550829_19r0000gn/T/gradio/4fea129f24bf40cbe0358a7255de81fbadc4ae8dbf99575ea86a2695d8aebac0/7403_19131_4200288_262720250718173043982_5366_2779054.PDF
+2026-06-10 21:01:33,528 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-10 21:01:33,545 - INFO - Loading faiss.
+2026-06-10 21:01:33,608 - INFO - Successfully loaded faiss.
+2026-06-10 21:01:33,613 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-10 21:01:33,616 - INFO - PDF indexed and FAISS index saved.
+2026-06-10 21:01:49,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 21:01:49,211 - INFO - PDF QA tool called. Question: Summarise the uploaded PDF.
+2026-06-10 21:01:50,124 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-10 21:01:55,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 21:01:55,863 - INFO - PDF QA tool completed.
+2026-06-10 21:02:01,798 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 21:02:24,050 - INFO - Loading faiss.
+2026-06-10 21:02:24,058 - INFO - Successfully loaded faiss.
+2026-06-10 21:02:24,061 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-10 21:02:24,062 - INFO - Existing FAISS index loaded.
+2026-06-10 21:02:24,062 - INFO - Application started.
+2026-06-10 21:02:24,252 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-06-10 21:02:24,260 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-06-10 21:02:24,800 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-06-10 21:02:24,862 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-06-10 21:02:37,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 21:02:37,246 - INFO - PDF QA tool called. Question: What is the document about?
+2026-06-10 21:02:38,049 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-10 21:02:41,677 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 21:02:41,686 - INFO - PDF QA tool completed.
+2026-06-10 21:02:45,932 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 23:42:52,441 - INFO - Loading faiss.
+2026-06-10 23:42:52,449 - INFO - Successfully loaded faiss.
+2026-06-10 23:42:52,452 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-10 23:42:52,452 - INFO - Existing FAISS index loaded.
+2026-06-10 23:42:52,452 - INFO - Application started.
+2026-06-10 23:42:52,643 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-06-10 23:42:52,650 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-06-10 23:42:53,265 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-06-10 23:42:53,266 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-06-10 23:43:12,705 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 23:34:29,539 - INFO - Loading faiss.
+2026-06-11 23:34:29,590 - INFO - Successfully loaded faiss.
+2026-06-11 23:34:29,592 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-11 23:34:29,593 - INFO - Existing FAISS index loaded.
+2026-06-11 23:34:29,593 - INFO - FastAPI application started.
+2026-06-11 23:35:26,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 23:37:05,421 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 23:37:05,424 - INFO - PDF QA tool called. Question: Summarise the uploaded PDF.
+2026-06-11 23:37:08,603 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-11 23:37:13,820 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 23:37:13,820 - INFO - PDF QA tool completed.
+2026-06-11 23:37:18,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 00:20:21,760 - INFO - Uploading PDF: /var/folders/fx/xb33xz892511mv550829_19r0000gn/T/tmpnrti4dna.pdf
+2026-06-15 00:20:24,400 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-15 00:20:24,410 - INFO - PDF indexed and FAISS index saved.
