@@ -77,11 +77,14 @@ def ask_pdf_tool(question: str) -> str:
 
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
-        retriever=vectordb.as_retriever()
+        retriever=vectordb.as_retriever(),
+        return_source_documents=True
     )
 
-    answer = qa_chain.run(question)
+    result = qa_chain({"query": question})
 
+    answer = result["result"]
+    sources = result["source_documents"]
     logger.info("PDF QA tool completed.")
 
-    return answer
+    return f"{answer}\n\nSources:\n{sources}"

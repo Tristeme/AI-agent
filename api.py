@@ -16,9 +16,9 @@ from services.pdf_rag import upload_pdf, ask_pdf_tool, load_existing_index
 from services.db import init_db, save_chat_log
 from services.logger import logger
 
+from services.ticket_tool import ticket_tool
 
 app = FastAPI(title="AI Workflow Assistant API")
-
 
 class ChatRequest(BaseModel):
     message: str
@@ -47,7 +47,7 @@ pdf_tool = Tool(
 
 
 agent = initialize_agent(
-    tools=[search_tool, pdf_tool],
+    tools=[search_tool, pdf_tool, ticket_tool],
     llm=llm,
     agent="chat-conversational-react-description",
     memory=memory,

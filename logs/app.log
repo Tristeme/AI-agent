@@ -55,3 +55,19 @@
 2026-06-15 00:20:21,760 - INFO - Uploading PDF: /var/folders/fx/xb33xz892511mv550829_19r0000gn/T/tmpnrti4dna.pdf
 2026-06-15 00:20:24,400 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2026-06-15 00:20:24,410 - INFO - PDF indexed and FAISS index saved.
+2026-06-17 11:41:28,210 - INFO - Loading faiss.
+2026-06-17 11:41:28,267 - INFO - Successfully loaded faiss.
+2026-06-17 11:41:28,269 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-17 11:41:28,271 - INFO - Existing FAISS index loaded.
+2026-06-17 11:41:28,271 - INFO - FastAPI application started.
+2026-06-17 11:43:57,091 - INFO - Uploading PDF: /var/folders/fx/xb33xz892511mv550829_19r0000gn/T/tmpbsffg57c.pdf
+2026-06-17 11:43:57,174 - WARNING - Ignoring wrong pointing object 6 0 (offset 0)
+2026-06-17 11:44:02,574 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-06-17 11:44:02,586 - INFO - PDF indexed and FAISS index saved.
+2026-06-17 11:46:08,483 - INFO - Loading faiss.
+2026-06-17 11:46:08,518 - INFO - Successfully loaded faiss.
+2026-06-17 11:46:08,521 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-17 11:46:08,521 - INFO - Existing FAISS index loaded.
+2026-06-17 11:46:08,521 - INFO - FastAPI application started.
+2026-06-17 11:46:18,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-17 11:46:25,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,10 @@
+[
+  {
+    "question": "What should I do if an inverter has an overheating alarm?",
+    "expected_keywords": ["cooling", "ventilation", "temperature", "manual"]
+  },
+  {
+    "question": "How should I handle a communication failure alarm?",
+    "expected_keywords": ["connection", "network", "restart", "check"]
+  }
+]

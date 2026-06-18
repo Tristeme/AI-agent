@@ -17,6 +17,8 @@ from services.logger import logger
 from services.db import init_db, save_chat_log
 init_db()
 
+from services.ticket_tool import ticket_tool
+
 load_existing_index()
 logger.info("Application started.")
 
@@ -34,7 +36,7 @@ memory = ConversationBufferMemory(
 
 # Create a conversational agent with Google Search tool
 agent = initialize_agent(
-    tools=[search_tool, pdf_tool],
+    tools=[search_tool, pdf_tool, ticket_tool],
     llm=llm,
     agent="chat-conversational-react-description",
     memory=memory,
