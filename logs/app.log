@@ -71,3 +71,38 @@
 2026-06-17 11:46:08,521 - INFO - FastAPI application started.
 2026-06-17 11:46:18,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2026-06-17 11:46:25,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-21 22:47:06,219 - INFO - Loading faiss.
+2026-06-21 22:47:06,260 - INFO - Successfully loaded faiss.
+2026-06-21 22:47:06,262 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 22:47:06,264 - INFO - Existing FAISS index loaded.
+2026-06-21 22:47:06,264 - INFO - FastAPI application started.
+2026-06-21 23:39:02,808 - INFO - Loading faiss.
+2026-06-21 23:39:02,841 - INFO - Successfully loaded faiss.
+2026-06-21 23:39:02,848 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 23:39:02,848 - INFO - Existing FAISS index loaded.
+2026-06-21 23:39:02,848 - INFO - FastAPI application started.
+2026-06-21 23:40:12,672 - INFO - Loading faiss.
+2026-06-21 23:40:12,704 - INFO - Successfully loaded faiss.
+2026-06-21 23:40:12,707 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 23:40:12,707 - INFO - Existing FAISS index loaded.
+2026-06-21 23:40:12,707 - INFO - FastAPI application started.
+2026-06-21 23:40:45,670 - INFO - Loading faiss.
+2026-06-21 23:40:45,723 - INFO - Successfully loaded faiss.
+2026-06-21 23:40:45,725 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 23:40:45,726 - INFO - Existing FAISS index loaded.
+2026-06-21 23:40:45,726 - INFO - FastAPI application started.
+2026-06-21 23:41:39,191 - INFO - Loading faiss.
+2026-06-21 23:41:39,222 - INFO - Successfully loaded faiss.
+2026-06-21 23:41:39,225 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 23:41:39,225 - INFO - Existing FAISS index loaded.
+2026-06-21 23:41:39,225 - INFO - FastAPI application started.
+2026-06-21 23:42:42,427 - INFO - Loading faiss.
+2026-06-21 23:42:42,457 - INFO - Successfully loaded faiss.
+2026-06-21 23:42:42,459 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 23:42:42,460 - INFO - Existing FAISS index loaded.
+2026-06-21 23:42:42,460 - INFO - FastAPI application started.
+2026-06-21 23:43:05,524 - INFO - Loading faiss.
+2026-06-21 23:43:05,556 - INFO - Successfully loaded faiss.
+2026-06-21 23:43:05,559 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2026-06-21 23:43:05,559 - INFO - Existing FAISS index loaded.
+2026-06-21 23:43:05,559 - INFO - FastAPI application started.
